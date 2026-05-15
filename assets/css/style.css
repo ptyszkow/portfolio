@@ -124,6 +124,12 @@ h1, h2, h3, h4, h5, h6 {
   #main {
     margin-left: 0;
   }
+
+  #hero {
+    margin-left: 0;
+    width: 100%;
+    background-position: top center;
+  }
 }
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -196,9 +202,10 @@ h1, h2, h3, h4, h5, h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  width: 100%;
+  margin-left: 300px;
+  width: calc(100% - 300px);
   height: 100vh;
-  background: url("../img/hero-bg.png") top right;
+  background: url("../img/hero-bg.png") -90px 0;
   background-size: cover;
 }
 #hero:before {
