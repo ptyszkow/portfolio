@@ -220,7 +220,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 2;
   min-width: 0;
   width: 85%;
-  top: 8%;
+  top: 2cm;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
@@ -254,7 +254,7 @@ h1, h2, h3, h4, h5, h6 {
     background: rgba(5, 13, 24, 0.35);
   }
   #hero .hero-container {
-    top: 8%;
+    top: 2cm;
     left: 6%;
     transform: none;
     text-align: left;
